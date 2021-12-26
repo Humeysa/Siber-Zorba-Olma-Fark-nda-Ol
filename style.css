@@ -1,0 +1,661 @@
+body{
+    margin: 0;
+    background-color: #dedede;
+}
+header{
+    margin-left: 600px;
+    margin-bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+#kelime{
+    margin-left: 1150px;
+    margin-top: 10px;
+}
+.cizgi{
+    background-color: black;
+    width: 80%;
+    height: 10px;
+    margin-top: -60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 300px;
+}
+.sosyal{
+    margin-top: -220px;
+    margin-left: 2px;
+    background-color: #ffa500;
+    width:52px; 
+    height:200px;
+    border-radius: 10px;
+    border: dimgrey 2px solid;
+    position: fixed;
+}
+.sosyal figure{
+    margin-left: 3px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.sosyal figure img:hover {
+    transform: scale(1.2) translate(50px , 0);
+    -webkit-transform: scale(1.2);
+}
+.menu{
+    margin-left: 0px;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: -305px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+    width: 170px;
+    height: 25px;
+    background-color: #dedede;
+    border: 1px solid black;
+    border-top: 5px solid dimgrey;
+    text-align: center;
+    padding-top: 5px;
+    list-style: none;
+}
+.menu ul  li  a{
+    text-decoration: none;
+    color: black;
+    display:block;
+    text-align: center;
+}
+.menu ul li a:hover{
+    border-top: 5px solid orange;
+    color:orange;
+    position: relative;
+    top: -10px;
+}
+.menu ul li ul {
+    display:none;
+    margin-top: 3px;
+    width:20px;
+	position:absolute; 
+}
+.menu ul li ul li {
+    display:block 
+}
+.menu ul li ul li a {
+    text-align:left;
+    text-indent: 5px;
+    padding: 3px;
+}
+.menu ul li:hover ul {
+	display:block
+}
+footer{
+    background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 80%;
+    height: 22px;
+    text-align: left;
+    text-indent: 10px;
+    color: #dedede;
+}
+/*ANASAYFA*/
+.unlem{
+    margin-top: 50px;
+    margin-left: 1200px;
+}
+/*BEN KİMİM?*/
+.benkimim article p{
+    border: 8px inset orange;
+    border-radius: 5px;
+    width: 35%;
+    margin-top: 170px;
+    margin-left: 150px;
+    padding: 30px 30px;
+    font-weight: bolder;
+    text-align:justify ;
+    text-indent: 20px;
+    font-family: Trebuchet MS;    
+    float: left;
+}
+.benkimim p::first-letter{
+    font-size: 50px;
+}
+.tagcloud{
+    width: 410px;
+    height: 410px;
+    margin-top: 170px;
+    margin-left: 170px;
+    float: left;
+}
+/*SİBER ZORBALIK*/
+.goster-gizle1 {
+    margin-top: 150px;
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+}
+.spoiler1 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 200px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+}
+.goster-gizle2 {
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+}
+.spoiler2 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 300px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+}  
+.goster-gizle3 {
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+}
+.spoiler3 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 200px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+} 
+.goster-gizle4 {
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;    
+    font-size: larger;
+}
+.spoiler4 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 350px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+}
+.goster-gizle5 {
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+}
+.spoiler5 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 350px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+}
+.goster-gizle6 {
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+}
+.spoiler6 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 150px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+}
+.goster-gizle7 {
+    margin-left: 355px;
+    width: 820px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: #dedede;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+}
+.spoiler7 {
+    margin-left: 355px;
+    padding: 10px;
+    width: 800px;
+    height: 250px;    
+    border-radius: 12px;
+    border: 2px solid dimgrey;
+    background: orange;
+    text-align: justify;
+    display: none;
+}
+.kaynak p{
+    text-align: right;
+    margin-right: 240px;
+    margin-bottom: -85px;
+}
+/*SİBER ZORBALIK NEDİR?*/
+.baslik p{
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align:center ;
+    font-family: Trebuchet MS; 
+    text-shadow: 0 -0.05em 0.1em dimgrey;
+}
+.nedir{
+    border: 8px ridge orange;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 300px;
+    width: 75%;
+    padding: 30px 30px;
+}
+.nedir p{
+    font-weight: bolder;
+    text-align:justify ;
+    text-indent: 30px;
+    font-family: Trebuchet MS; 
+}
+.nedir p::first-letter{
+    font-size: 50px;
+}
+/*YAPILMASI GEREKENLER*/
+.aciklama{
+    border: 8px ridge orange;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 300px;
+    width: 75%;
+    padding: 30px 30px;
+}
+.aciklama p{
+    text-align: justify ;
+    font-family: Trebuchet MS; 
+}
+/*YAPILMAMASI GEREKENLER*/
+
+/*ROPÖRTAJLAR*/
+.video {
+    background-color: orange;
+    border: black 2px ridge;
+    border-radius: 10px;
+    width: 760px;
+    padding: 5px;
+    margin-top: 150px;
+    margin-left: 380px;
+    text-align: center;
+    box-shadow: 10px 10px 3px dimgrey;
+}
+.video p{
+    text-align: center;
+    font: 20px comic;
+}
+.box1 {
+    border: 2px double orange;
+    border-radius: 50% 20% / 10% 40%;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding: 20px; 
+    width: 200px;
+    height: 60px;
+    background: url(roparka.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+}
+.box1 a{
+    font-size: 40px;
+    text-align: center;
+}
+.box2 {
+    border: 2px double orange;
+    border-radius: 50% 20% / 10% 40%;
+    margin-top: -100px;
+    margin-left: 850px;
+    padding: 20px; 
+    width: 200px;
+    height: 60px;
+    background: url(roparka.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+}
+.box2 a{
+    font-size: 40px;
+    text-align: center;
+}
+/*UZMANLAR*/
+.circle1{
+    margin-top: 170px;
+    margin-left: 150px;
+    border-radius: 25% 10%;
+    background: dimgrey;
+    padding: 20px; 
+    width: 150px;
+    height: 100px;
+}
+.circle1 img{
+    margin-top: -55px;
+    margin-left: -40px;
+}
+.pdrcizgi1{
+    margin-top: -9px;
+    margin-left: 310px;
+    background: black;
+    width: 500px;
+    height: 10px;
+}
+.uzmanrop1{
+    width: 30%;
+    height: 100px;
+    margin-top: -125px;
+    margin-left: 350px;
+}
+.uzmanrop1 p{
+    text-align: justify ;
+    text-indent: 20px;
+}
+.uzmanrop1tam{
+    border: 3px ridge dimgrey;
+    width: 77%;
+    margin-top: 150px;
+    margin-left: 150px;
+    padding: 20px 20px;
+}
+.uzmanrop1tam p{
+    text-align: justify;
+}
+.circle2{
+    margin-top: 130px;
+    margin-left: 1180px;
+    border-radius: 25% 10%;
+    background: dimgrey;
+    padding: 20px; 
+    width: 150px;
+    height: 100px;
+}
+.circle2 img{
+    margin-top: -55px;
+    margin-left: -40px;
+}
+.pdrcizgi2{
+    margin-top: -9px;
+    margin-left: 710px;
+    background: black;
+    width: 500px;
+    height: 10px;
+}
+.uzmanrop2{
+    width: 30%;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 980px;
+}
+.uzmanrop2 p{
+    text-align: justify ;
+    text-indent: 20px;
+}
+.uzmanrop2tam{
+    border: 3px ridge dimgrey;
+    width: 77%;
+    margin-top: 150px;
+    margin-left: 150px;
+    padding: 20px 20px;
+}
+.uzmanrop2tam p{
+    text-align: justify;
+}
+/*MAĞDURLAR*/
+.circle3{
+    margin-top: 170px;
+    margin-left: 150px;
+    border-radius: 25% 10%;
+    background: orange;
+    padding: 20px; 
+    width: 150px;
+    height: 100px;
+}
+.circle3 img{
+    margin-top: -126px;
+    margin-left: -110px;
+}
+.mgdrcizgi1{
+    margin-top: -10px;
+    margin-left: 310px;
+    background: orange;
+    width: 500px;
+    height: 10px;
+}
+.magdurrop1{
+    width: 30%;
+    height: 100px;
+    margin-top: -125px;
+    margin-left: 350px;
+}
+.magdurrop1 p{
+    text-align: justify ;
+    text-indent: 20px;
+}
+.magdurrop1tam{
+    border: 3px ridge dimgrey;
+    width: 77%;
+    margin-top: 150px;
+    margin-left: 150px;
+    padding: 20px 20px;
+}
+.magdurrop1tam p{
+    text-align: justify;
+}
+.circle4{
+    margin-top: 120px;
+    margin-left: 1180px;
+    border-radius: 25% 10%;
+    background: orange;
+    padding: 20px; 
+    width: 150px;
+    height: 100px;
+}
+.circle4 img{
+    margin-top: -128px;
+    margin-left: -120px;
+}
+.mgdrcizgi2{
+    margin-top: -10px;
+    margin-left: 725px;
+    background: orange;
+    width: 500px;
+    height: 10px;
+}
+.magdurrop2{
+    width: 30%;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 980px;
+}
+.magdurrop2 p{
+    text-align: justify ;
+    text-indent: 20px;
+}
+/*SENDE OLABİLİRSİN*/
+.slider{    
+    overflow:hidden;
+    margin-top: 115px;
+    margin-left: 220px;
+    position: relative;
+}
+.slider img {
+    width: 1000px;
+    height: 480px;
+    border: 5px solid dimgrey;
+    border-radius: 10px;
+    float: left;
+}
+#buttons{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 1070px;
+}
+#buttons li{
+    margin-left: 5px;
+    list-style: none;
+    float: left;
+}
+#buttons li a{
+    background-color:rgb(2,2,2,.5);
+    padding: 5px 12px;
+    border: 1px solid orange;
+    color:whitesmoke;
+    transition: 500ms; 
+}
+#buttons li a:hover{
+    background-color:black;
+    opacity:1;
+    border: 1px solid #000;
+    transition:500ms;   
+}
+/*BELİRTİLERİ NELERDİR?*/
+.belirti figure img{
+    margin-top: 150px;
+    margin-left: 225px;
+}
+.belirti p{
+    text-align: right;
+    margin-right: 240px;
+}
+/*TEST*/
+.test1{
+    text-align: center;
+}
+.test1 p{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bold;
+}
+.test1 p::first-letter{
+    font-size: 50px;
+}
+.test1 form table{
+    border: 8px double orange;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px 30px;
+    font-weight: bolder;
+    text-align:left ;
+}
+.test2 form table{
+    border: 8px double orange;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px 30px;
+    font-weight: bolder;
+    text-align:left ;
+}
+.scrolltop img{
+	width: 120px;
+	height: 60px;
+	clear: both;
+	position:fixed;
+	right:20px;
+	bottom:16px;
+    cursor: pointer;
+}
+/*BİZE ULAŞIN*/
+form table{
+    border: 8px outset orange;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 80%;
+    padding: 30px 30px;
+    font-weight: bolder;
+}

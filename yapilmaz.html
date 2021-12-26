@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapılmaması Gerekenler</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <input type="text" id="kelime" placeholder="Aranacak Kelime..." />
+    <input type="button" onClick="ara()" value="Ara"/>
+ 
+    <script type="text/Javascript" language="Javascript">
+        function ara(){
+            var aranacakkelime=document.getElementById('kelime').value;
+            window.open('https://www.google.com.tr/#q='+aranacakkelime);  
+        }
+    </script>
+    
+    <header>
+        <figure>
+            <img src="logo.png" width="200px" height="123px">
+        </figure>
+    </header>
+
+    <div class="cizgi"></div>
+
+    <div class="sosyal">
+        <figure>
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="45px" height="45px"></a>
+            <a href="https://twitter.com/login?lang=tr" target="_blank"><img src="twitter.png" width="45px" height="45px"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" width="45px" height="45px"></a>
+            <a href="https://accounts.google.com/" target="_blank"><img src="mail.png" width="45px" height="45px"></a>  
+        </figure>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="anasayfa.html">ANASAYFA</a></li>
+            <li><a href="bizkimiz.html">BEN KİMİM?</a></li>
+            <li><a href="siberzorbalik.html">SİBER ZORBALIK</a>
+                <ul>
+                    <li><a href="nedir.html">Siber Zorbalık Nedir?</a></li>
+                    <li><a href="yapilir.html">Yapılması Gerekenler</a></li>
+                    <li><a href="yapilmaz.html">Yapılmaması Gerekenler</a></li>
+                </ul>
+            </li>
+            <li><a href="roportajlar.html">RÖPORTAJLAR</a>
+                <ul>
+                    <li><a href="uzmanlar.html">Uzmanlar</a></li>
+                    <li><a href="magdurlar.html">Mağdurlar</a></li>                    
+                </ul>
+            </li>
+            <li><a href="sendeolabilirsin.html">SENDE OLABİLİRSİN!</a>
+                <ul>
+                    <li><a href="belirti.html">Belirtileri Nelerdir?</a></li>
+                    <li><a href="test.html">Testler</a></li>
+                </ul>
+            </li>
+            <li><a href="bizeulasin.html">BİZE ULAŞIN</a></li>
+        </ul>
+    </nav>
+
+    <div class="baslik">
+        <p>Siber Zorbalıkla Karşılaştığımızda Neler Yapmamalıyız?</p>
+    </div>
+
+    <div class="aciklama">
+        <p><font style="font-weight: bolder; color: red;">Kanıtları Silmeyin:</font> Zorbalığın derecesinin artma ihtimaline karşı ,siber zorbaların
+            gönderdiği tüm iletileri saklayın.
+        </br></br><font style="font-weight: bolder; color: red;">Yanıt Vermeyin:</font> Zorbalık yapan kişinin istediği yanıtları vermeyin. Yanıt
+        verdiğinizde kendini güçlü hisseder.
+        </br></br><font style="font-weight: bolder; color: red;">Misilleme Yapmayın:</font> Zorbaya onun üslubu ile yanıt vermek bizi de bir zorbaya
+        dönüştürür. Zorbanın davranışını sürdürmesine neden olur.
+        </br></br><font style="font-weight: bolder; color: red;">Tahrik Etmeyin:</font> Sevmediğimiz kişilere karşı medeni bir şekilde davranmalıyız.
+        Başkaları hakkında dedikodu yapmak ya da tahrik edici sözler söylemek zorbalığa maruz kalma riskini arttırır.
+        </br></br><font style="font-weight: bolder; color: red;">Göz Yummayın / Seyirci Kalmayın:</font> Biz ya da bir arkadaşımız siber zorbalığa
+        maruz kalıyorsa seyirci kalmayın. Siber zorbalığa seyirci kalmak hem zorbaları güçlendirir hem de kurbanlara zarar verir.
+        </br></br><font style="font-weight: bolder; color: red;">Siz de Zorba Olmayın:</font> Kendimize yapılmasını istemediğimiz şeyleri başkalarına
+        yapmayın. Birkaç saniyeliğine de olsa karşımızdakinin ne hissedeceğini hayal edersek öfkemizi bastırabiliriz. 
+        
+        </br></br></br>
+        Daha detaylı bilgi edinmek için videomuzu izleyebilirisiniz.
+        </p>
+
+        </br></br></br>
+
+        <video width="720px" controls autoplay>
+            <source src="yapilmaz.mp4" type="video/mp4"/>
+            <source src="yapilmaz.ogv" type="video.ogg"/>
+        </video>
+        
+    </br></br></br>
+    </div>
+
+    </br></br></br>
+
+    <footer>
+        <address>
+            <small>@2020 | Tüm Hakları Saklıdır | Hümeysa Aktaş</small>
+        </address>
+    </footer>
+
+    </br>
+
+</body>
+</html>

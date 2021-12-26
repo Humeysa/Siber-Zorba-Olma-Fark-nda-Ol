@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapılması Gerekenler</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <input type="text" id="kelime" placeholder="Aranacak Kelime..." />
+    <input type="button" onClick="ara()" value="Ara"/>
+ 
+    <script type="text/Javascript" language="Javascript">
+        function ara(){
+            var aranacakkelime=document.getElementById('kelime').value;
+            window.open('https://www.google.com.tr/#q='+aranacakkelime);  
+        }
+    </script>
+    
+    <header>
+        <figure>
+            <img src="logo.png" width="200px" height="123px">
+        </figure>
+    </header>
+
+    <div class="cizgi"></div>
+
+    <div class="sosyal">
+        <figure>
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="45px" height="45px"></a>
+            <a href="https://twitter.com/login?lang=tr" target="_blank"><img src="twitter.png" width="45px" height="45px"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" width="45px" height="45px"></a>
+            <a href="https://accounts.google.com/" target="_blank"><img src="mail.png" width="45px" height="45px"></a>  
+        </figure>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="anasayfa.html">ANASAYFA</a></li>
+            <li><a href="bizkimiz.html">BEN KİMİM?</a></li>
+            <li><a href="siberzorbalik.html">SİBER ZORBALIK</a>
+                <ul>
+                    <li><a href="nedir.html">Siber Zorbalık Nedir?</a></li>
+                    <li><a href="yapilir.html">Yapılması Gerekenler</a></li>
+                    <li><a href="yapilmaz.html">Yapılmaması Gerekenler</a></li>
+                </ul>
+            </li>
+            <li><a href="roportajlar.html">RÖPORTAJLAR</a>
+                <ul>
+                    <li><a href="uzmanlar.html">Uzmanlar</a></li>
+                    <li><a href="magdurlar.html">Mağdurlar</a></li>                    
+                </ul>
+            </li>
+            <li><a href="sendeolabilirsin.html">SENDE OLABİLİRSİN!</a>
+                <ul>
+                    <li><a href="belirti.html">Belirtileri Nelerdir?</a></li>
+                    <li><a href="test.html">Testler</a></li>
+                </ul>
+            </li>
+            <li><a href="bizeulasin.html">BİZE ULAŞIN</a></li>
+        </ul>
+    </nav>
+
+    <div class="baslik">
+        <p>Siber Zorbalıkla Karşılaştığımızda Neler Yapmalıyız?</p>
+    </div>
+
+    <div class="aciklama">
+        <p><font style="font-weight: bolder; color: red;">Engelleyin:</font> Eğer taciz, anlık mesaj ya da yorum şeklinde yapılıyorsa, 
+        tacizi yapan kişiyi engelleyin ve hesabın gizlilik ayarlarını değiştirin.
+        </br></br><font style="font-weight: bolder; color: red;">Uzaklaşın:</font> İnternette sohbet ortamında zorbalık yapılırsa, hemen sohbet 
+        penceresini kapatın, iletişim kurmaya devam etmeyin.
+        </br></br><font style="font-weight: bolder; color: red;">Yardım İsteyin:</font> Bir arkadaşınızla konuşun, anne-babanıza ya da güvendiğiniz, 
+        yardım edebilecek bir yetişkine ya da öğretmeninize başvurun.
+        </br></br><font style="font-weight: bolder; color: red;">Şikâyet Edin:</font> Eğer size bir sosyal medya adresi üzerinden zorbalık yapılıyorsa, bu 
+        sitenin “kural ihlali bildirme/şikâyet etme” araçlarını kullanın. Eğer bu kişi sizi fiziksel 
+        şiddetle tehdit ediyorsa polisi aramak gerekebilir; bu durumda ebeveyninize ya da güvendiğiniz 
+        bir yetişkine bilgi vermelisiniz.
+        </br></br><font style="font-weight: bolder; color: red;">Durdurun:</font> İstenmeyen mesajı ve rahatsız eden kişiyi durdurma, tacizciye bunu durdurmasını 
+        söyleyebilme, kullanıcı ismini değiştirmedir.
+        </br></br><font style="font-weight: bolder; color: red;">Saklayın:</font> Suç içeren mesaj veya E-postaları saklayın ve delil olarak kullanın.
+        </br></br><font style="font-weight: bolder; color: red;">Değiştirin:</font> Sms yoluyla taciz ediliyorsanız, telefon numaranızı değiştirin.
+        
+        </br></br></br>
+        Daha detaylı bilgi edinmek için videomuzu izleyebilirisiniz.
+        </p>
+
+        </br></br></br>
+
+        <video width="720px" controls autoplay>
+            <source src="yapilir.mp4" type="video/mp4"/>
+            <source src="yapilir.ogv" type="video.ogg"/>
+        </video>
+
+    </br></br></br>
+    </div>
+
+    </br></br></br>
+
+    <footer>
+        <address>
+            <small>@2020 | Tüm Hakları Saklıdır | Hümeysa Aktaş</small>
+        </address>
+    </footer>
+
+    </br>
+
+</body>
+</html>

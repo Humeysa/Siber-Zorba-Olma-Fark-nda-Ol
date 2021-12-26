@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEN KİMİM?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <input type="text" id="kelime" placeholder="Aranacak Kelime..." />
+    <input type="button" onClick="ara()" value="Ara"/>
+ 
+    <script type="text/Javascript" language="Javascript">
+        function ara(){
+            var aranacakkelime=document.getElementById('kelime').value;
+            window.open('https://www.google.com.tr/#q='+aranacakkelime);  
+        }
+    </script>
+    
+    <header>
+        <figure>
+            <img src="logo.png" width="200px" height="123px">
+        </figure>
+    </header>
+
+    <div class="cizgi"></div>    
+    
+    <div class="sosyal">
+        <figure>
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="45px" height="45px"></a>
+            <a href="https://twitter.com/login?lang=tr" target="_blank"><img src="twitter.png" width="45px" height="45px"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" width="45px" height="45px"></a>
+            <a href="https://accounts.google.com/" target="_blank"><img src="mail.png" width="45px" height="45px"></a> 
+        </figure>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="anasayfa.html">ANASAYFA</a></li>
+            <li><a href="bizkimiz.html">BEN KİMİM?</a></li>
+            <li><a href="siberzorbalik.html">SİBER ZORBALIK</a>
+                <ul>
+                    <li><a href="nedir.html">Siber Zorbalık Nedir?</a></li>
+                    <li><a href="yapilir.html">Yapılması Gerekenler</a></li>
+                    <li><a href="yapilmaz.html">Yapılmaması Gerekenler</a></li>
+                </ul>
+            </li>
+            <li><a href="roportajlar.html">RÖPORTAJLAR</a>
+                <ul>
+                    <li><a href="uzmanlar.html">Uzmanlar</a></li>
+                    <li><a href="magdurlar.html">Mağdurlar</a></li>                    
+                </ul>
+            </li>
+            <li><a href="sendeolabilirsin.html">SENDE OLABİLİRSİN!</a>
+                <ul>
+                    <li><a href="belirti.html">Belirtileri Nelerdir?</a></li>
+                    <li><a href="test.html">Testler</a></li>
+                </ul>
+            </li>
+            <li><a href="bizeulasin.html">BİZE ULAŞIN</a></li>
+        </ul>
+    </nav>
+
+    <div class="benkimim">
+        <article>
+            <p> 
+                Teknolojinin 21. yüz yılda gelişmesiyle birlikte kullanımı artan sosyal medya platformları, 
+                E-Posta platformları, çevrim içi ve çevrimdışı iletişim platformlarında çocuk, genç, yetişkin
+                demeden maruz kalınan siber zorbalıklara dur demek istiyorum.</br>
+                Bu site Siber Zorbalığı tanıma ve tanıtma, anlama ve anlatma, dur demek ve dur dedirtmek 
+                için kurulmuştur.</br>
+                Dünya üzerinde bir çok insan her gün siber zorbalığa maruz kalıyor ve bu durumum farkına dahi varmıyor.
+                Ben bu site aracılığıyla mağdurları bilinçlendirmek, yönlendirmek ve onlara destek olmak istiyorum.
+                Eğer sen de siber zorbalık mağduru veya siber zorba isen bu site senin değişebilmen için hazırlandı.</br>
+                İçindeki gücü fark edersen, hayatındaki kötü durumlarla başa çıkabilirsin. Gelin Hep Birlikte Siber Zorbalığa DUR! diyelim.</br></br></br>
+                Hümeysa AKTAŞ
+            </p>
+        </article>
+    </div>
+
+    <div class="tagcloud">
+        <img />
+    </div>
+
+    <script>
+        $(".tagcloud img").attr({
+            src: "tagcloud.png",
+            title: "Siber Zorbalık Etiket Bulutu",
+            alt: "Siber Zorbalık Etiket Bulutu"
+         });
+    </script>
+
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+    <footer>
+        <address>
+            <small>@2020 | Tüm Hakları Saklıdır | Hümeysa Aktaş</small>
+        </address>
+    </footer>
+
+    </br>
+
+</body>
+</html>
